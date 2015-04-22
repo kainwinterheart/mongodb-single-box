@@ -1,0 +1,10 @@
+{
+    "name": "mongodb_configserver",
+    "description": "mongodb config server",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "run_list": [
+        "role[mongodb]",
+        "recipe[mongodb::configserver]"
+    ]
+}

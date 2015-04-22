@@ -1,0 +1,25 @@
+{
+  "id": "testMDB1",
+  "name": "testMDB1",
+  "chef_environment": "_default",
+  "json_class": "Chef::Node",
+  "automatic": {
+  },
+  "normal": {
+    "fqdn": "testMDB1",
+      "mongodb": {
+        "cluster_name": "testMDB",
+        "replicaset_name": "default",
+        "is_replicaset": false,
+        "is_shard": false,
+        "shard_name": "default"
+    }
+  },
+  "chef_type": "node",
+  "default": {
+  },
+  "override": {
+  },
+  "run_list": [
+  ]
+}

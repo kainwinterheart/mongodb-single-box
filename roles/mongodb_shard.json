@@ -1,0 +1,10 @@
+{
+    "name": "mongodb_shard",
+    "description": "mongodb shard node",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "run_list": [
+        "role[mongodb_replicaset]",
+        "recipe[mongodb::shard]"
+    ]
+}

@@ -1,0 +1,18 @@
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "cookbooks/databag-node-params"]
+	path = cookbooks/databag-node-params
+	url = https://github.com/kainwinterheart/databag-node-params.git
+[submodule "cookbooks/mongodb"]
+	path = cookbooks/mongodb
+	url = git@github.com:kainwinterheart/chef-mongodb.git
+[submodule "cookbooks/chef-solo-search"]
+	path = cookbooks/chef-solo-search
+	url = https://github.com/kainwinterheart/chef-solo-search.git
+[submodule "cookbooks/hostsfile"]
+	path = cookbooks/hostsfile
+	url = https://github.com/customink-webops/hostsfile.git
+[submodule "cookbooks/hostsfile-attrs"]
+	path = cookbooks/hostsfile-attrs
+	url = https://github.com/kainwinterheart/hostsfile-attrs.git
