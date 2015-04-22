@@ -5,7 +5,6 @@ Vagrant.configure("2") do |config|
 
     box_url = "http://ppcmoddev2:9028/js/squeeze_x64.box"
 
-    mongos_external_port = ENV[ "MONGODB_EXTERNAL_PORT" ]
     testMDB1ip = ENV[ "MONGODB_VM_IP" ]
 
     hostsfile_attrs = [
@@ -22,7 +21,6 @@ Vagrant.configure("2") do |config|
         config.vm.box_url = box_url
 
         config.vm.network "private_network", ip: testMDB1ip
-        config.vm.network "forwarded_port", guest: 27017, host: mongos_external_port
 
         config.vm.provision :chef_solo do |chef|
 
