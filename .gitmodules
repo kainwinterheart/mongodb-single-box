@@ -6,7 +6,7 @@
 	url = https://github.com/kainwinterheart/databag-node-params.git
 [submodule "cookbooks/mongodb"]
 	path = cookbooks/mongodb
-	url = git@github.com:kainwinterheart/chef-mongodb.git
+	url = https://github.com/kainwinterheart/chef-mongodb.git
 [submodule "cookbooks/chef-solo-search"]
 	path = cookbooks/chef-solo-search
 	url = https://github.com/kainwinterheart/chef-solo-search.git
